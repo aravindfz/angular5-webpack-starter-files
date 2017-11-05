@@ -13,10 +13,19 @@
         "noImplicitAny": true,
         "suppressImplicitAnyIndexErrors": true,
         "types": [
-            "node"
+            "node",
+            "jasmine"
         ],
         "typeRoots": [
             "../node_modules/@types"
         ]
-    }
+    },
+    "include": [
+        "src/**/*.ts",
+        "node_modules/@types"
+    ],
+    "exclude": [
+        "test.ts",
+        "**/*.spec.ts"
+    ]
 }

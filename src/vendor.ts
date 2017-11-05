@@ -5,7 +5,9 @@ import '@angular/core';
 import '@angular/common';
 import '@angular/http';
 import '@angular/router';
- 
+import '@angular/platform-browser-dynamic/testing';
+import '@angular/core/testing';
+
 // RxJS
 import 'rxjs';
  
